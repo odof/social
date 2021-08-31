@@ -1,60 +1,50 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * mass_mailing_list_dynamic
+#	* mass_mailing_list_dynamic
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-26 01:46+0000\n"
-"PO-Revision-Date: 2018-02-26 01:46+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"POT-Creation-Date: 2021-08-24 13:43+0000\n"
+"PO-Revision-Date: 2021-08-24 13:43+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: \n"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_list_form
-msgid ""
-"<i class=\"fa fa-info-circle\"/> If you want to remove contacts from a "
-"dynamic list, just <b>set them as <i>Opt Out</i></b>."
-msgstr ""
+msgid "<i class=\"fa fa-info-circle\"/> If you want to remove contacts from a dynamic list, just <b>set them as <i>Opt Out</i></b>."
+msgstr "<i class=\"fa fa-info-circle\"/> Si vous souhaitez supprimer des contacts d'une liste dynamique, il suffit de <b>cocher <i>Désinscription</i></b>."
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_list_form
-msgid ""
-"<i class=\"fa fa-info-circle\"/> You cannot make manual editions of contacts "
-"in fully synchronized lists."
-msgstr ""
+msgid "<i class=\"fa fa-info-circle\"/> You cannot make manual editions of contacts in fully synchronized lists."
+msgstr "<i class=\"fa fa-info-circle\"/> Vous ne pouvez pas effectuer d'éditions manuelles de contacts dans des listes entièrement synchronisées."
 
 #. module: mass_mailing_list_dynamic
 #: selection:mail.mass_mailing.list,sync_method:0
 msgid "Add and remove records as needed"
-msgstr ""
+msgstr "Ajouter et supprimer des enregistrements selon les besoins"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_load_filter_form
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #. module: mass_mailing_list_dynamic
 #: code:addons/mass_mailing_list_dynamic/models/mail_mass_mailing_contact.py:19
 #, python-format
-msgid ""
-"Cannot edit manually contacts in a fully synchronized list. Change its sync "
-"method or execute a manual sync instead."
-msgstr ""
+msgid "Cannot edit manually contacts in a fully synchronized list. Change its sync method or execute a manual sync instead."
+msgstr "Impossible de modifier manuellement les contacts dans une liste entièrement synchronisée. Modifiez sa méthode de synchronisation ou exécutez une synchronisation manuelle à la place."
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,help:mass_mailing_list_dynamic.field_mail_mass_mailing_list_sync_method
-msgid ""
-"Choose the syncronization method for this list if you want to make it dynamic"
-msgstr ""
+msgid "Choose the syncronization method for this list if you want to make it dynamic"
+msgstr "Choisissez la méthode de synchronisation pour cette liste si vous voulez la rendre dynamique"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_load_filter_create_uid
@@ -74,27 +64,27 @@ msgstr "Nom affiché"
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_list_dynamic
 msgid "Dynamic"
-msgstr ""
+msgstr "Dynamique"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_list_form
 msgid "Dynamic list"
-msgstr ""
+msgstr "Liste dynamique"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,help:mass_mailing_list_dynamic.field_mail_mass_mailing_list_sync_domain
 msgid "Filter partners to sync in this list"
-msgstr ""
+msgstr "Filtrer les partenaires à synchroniser dans cette liste"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_load_filter_filter_id
 msgid "Filter to load"
-msgstr ""
+msgstr "Filtre à charger"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,help:mass_mailing_list_dynamic.field_mail_mass_mailing_list_is_synced
 msgid "Helper field to make the user aware of unsynced changes"
-msgstr ""
+msgstr "Champ d'aide pour informer l'utilisateur des modifications non synchronisées"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_load_filter_id
@@ -104,12 +94,12 @@ msgstr "ID"
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_list_is_synced
 msgid "Is synced"
-msgstr ""
+msgstr "Est synchronisé"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_load_filter___last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr "Dernière Modification le"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_load_filter_write_uid
@@ -126,7 +116,7 @@ msgstr "Dernière mise à jour le"
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_list_form
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_load_filter_form
 msgid "Load filter"
-msgstr ""
+msgstr "Charger un filtre"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model,name:mass_mailing_list_dynamic.model_mail_mass_mailing_list
@@ -141,12 +131,12 @@ msgstr "Publipostage"
 #. module: mass_mailing_list_dynamic
 #: model:ir.model,name:mass_mailing_list_dynamic.model_mail_mass_mailing_contact
 msgid "Mass Mailing Contact"
-msgstr "Contact de la liste de diffusion"
+msgstr "Contact du courriel de masse"
 
 #. module: mass_mailing_list_dynamic
 #: selection:mail.mass_mailing.list,sync_method:0
 msgid "Only add new records"
-msgstr ""
+msgstr "Ajouter uniquement les nouveaux enregistrements"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model,name:mass_mailing_list_dynamic.model_res_partner
@@ -155,27 +145,26 @@ msgstr "Partenaire"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,help:mass_mailing_list_dynamic.field_mail_mass_mailing_list_dynamic
-msgid ""
-"Set this list as dynamic, to make it autosynchronized with partners from a "
-"given criteria."
-msgstr ""
+msgid "Set this list as dynamic, to make it autosynchronized with partners from a given criteria."
+msgstr "Définir cette liste comme dynamique, pour qu'elle se synchronise automatiquement avec les partenaires à partir d'un critère donné."
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_list_sync_method
 msgid "Sync method"
-msgstr ""
+msgstr "Méthode de synchronisation"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.ui.view,arch_db:mass_mailing_list_dynamic.view_mail_mass_mailing_list_form
 msgid "Sync now"
-msgstr ""
+msgstr "Synchroniser maintenant"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model.fields,field_description:mass_mailing_list_dynamic.field_mail_mass_mailing_list_sync_domain
 msgid "Synchronization critera"
-msgstr ""
+msgstr "Critères de synchronisation"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model,name:mass_mailing_list_dynamic.model_mail_mass_mailing_load_filter
 msgid "mail.mass_mailing.load.filter"
-msgstr ""
+msgstr "mail.mass_mailing.load.filter"
+
